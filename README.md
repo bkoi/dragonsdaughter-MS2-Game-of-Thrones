@@ -128,6 +128,8 @@ Inspirations for the memory game:
 (https://daniellaminyo.github.io/Milestone-2/index.html)
 (https://tawnygoody.github.io/MS2-World-of-Rugby/)
 
+For the game instructions I used the wording from a solo matching game on [Memozor](https://www.memozor.com/memory-games/big-or-giant/forest).
+
 ### Design
 
 ### Media
