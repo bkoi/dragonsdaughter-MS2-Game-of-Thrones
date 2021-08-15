@@ -35,6 +35,7 @@ This project is for educational purposes only and has been created for the Inter
         * 
         * 
     * ### Typography
+        According to [Shmoop](https://www.shmoop.com/study-guides/literature/game-of-thrones-book/themes), there is a mixture of classic and contemporary themes characterising Game of Thrones, such as power, gender, betrayal, family, society and class, principles, coming of age, justice and judgement, memory and the past, strength and skill. I wanted my fonts to reflect this dichotomy so I decided to go with [Cinzel](https://fonts.google.com/specimen/Cinzel?preview.text=Winter%20is%20coming&preview.text_type=custom#glyphs) which resembles roman inscriptions, but also has a contemporary feel to it. I used [Montserrat](https://fonts.google.com/specimen/Montserrat#glyphs) for instructions and as the fallback font.
         
     * ### Icons
        
