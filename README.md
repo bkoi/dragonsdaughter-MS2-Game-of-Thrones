@@ -8,7 +8,7 @@
 
 ## Project Goal
 
-The Game of Thrones Memory Game has been created to give Game of Thrones or memory game enthusiasts the opportunity to have fun while finding the matching cards, though it is suitable for all age groups. As an added bonus, this game can also improve some brain functions such as attention, concentration and focus. In addition to developing one's visual recognition and short-term memory, it can also enhance a person's long-term memory, too. [Curious World](https://www.curiousworld.com/blog/importance-playing-memory-games)
+The Game of Thrones Memory Game has been created to give Game of Thrones or memory game enthusiasts the opportunity to have fun while finding the matching cards, though it is suitable for all age groups. As an added bonus, this game can also improve some brain functions such as attention, concentration and focus. In addition to developing one's visual recognition and short-term memory, it can also enhance a person's long-term memory, too, as per [Curious World](https://www.curiousworld.com/blog/importance-playing-memory-games).
 
 This project is for educational purposes only and has been created for the Interactive Front-end Development module of Code Institute.
 
@@ -27,17 +27,22 @@ This project is for educational purposes only and has been created for the Inter
 
 * ### Design
     * #### Color Scheme
-        My color palette was inspired by 
+        The gloomy and cold colors of the Night's Watch have inspired me to use the below color palette which I made via [Coolors](https://coolors.co/).
+        &nbsp;
+        ![Color palette](./assets/tests/color-palette.png)
+        &nbsp;
+        According [Color Psychology](https://coschedule.com/blog/color-psychology-marketing#blue) blue is associated with trust, dependability which are in line with a lot of the themes detectable in Game of Thrones. Whereas [white](https://coschedule.com/blog/color-psychology-marketing#white) or whiter shades of blue usually create a sense of purity, peace and cleanliness. Whereas [black](https://coschedule.com/blog/color-psychology-marketing#black) conveys seriousness, control, independence but it can carry mystery or death, which are also recurring elements in the series.
+        &nbsp;
+        The color contrast checker gave very good ratings for using #091B2A as a background color while using #D7EDF3 as the text color.
+        &nbsp;
+        ![Contrast checker one](./assets/tests/contrast-checker-one.png) I intended to use this combination for the main page, pop-ups and instructions. 
+        &nbsp;
+        I also liked the effect of using #BACFEO on buttons and juxaposing it with #081D3A when used as text color or on the footer.
+        &nbsp;
+        ![Contrast checker two](./assets/tests/contrast-checker-two.png)
 
-        
-
-        * 
-        * 
-        * 
     * ### Typography
         According to [Shmoop](https://www.shmoop.com/study-guides/literature/game-of-thrones-book/themes), there is a mixture of classic and contemporary themes characterising Game of Thrones, such as power, gender, betrayal, family, society and class, principles, coming of age, justice and judgement, memory and the past, strength and skill. I wanted my fonts to reflect this dichotomy so I decided to go with [Cinzel](https://fonts.google.com/specimen/Cinzel?preview.text=Winter%20is%20coming&preview.text_type=custom#glyphs) which resembles roman inscriptions, but also has a contemporary feel to it. I used [Montserrat](https://fonts.google.com/specimen/Montserrat#glyphs) for instructions and as the fallback font.
-        
-    * ### Icons
        
     * ### Structure
         
@@ -45,12 +50,12 @@ This project is for educational purposes only and has been created for the Inter
 
     I used [Balsamiq](https://balsamiq.com/wireframes/desktop/docs/) when creating the wireframes for my website. 
 
-    #### Desktop Wireframe - [View]
-    #### Tablet Wireframe - [View]
-    #### Mobile Wireframe - [View]
+    #### Desktop Wireframe - [View](./assets/wireframes/desktop-wireframe.png)
+    #### Tablet Wireframe - [View](./assets/wireframes/tablet-wireframe.png)
+    #### Mobile Wireframe - [View](./assets/wireframes/mobile-wireframe.png)
 ---
 ## Features
-* ### Responsive on all device sizes
+*  Responsive on all device sizes
 
 ### Existing Features
 
@@ -125,19 +130,39 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 I took some code snippets from 
 
 ### Content
-Inspirations for the memory game:
-(https://daniellaminyo.github.io/Milestone-2/index.html)
-(https://tawnygoody.github.io/MS2-World-of-Rugby/)
 
-For the game instructions I used the wording from a solo matching game on [Memozor](https://www.memozor.com/memory-games/big-or-giant/forest).
+* Reference in Project Goal: [Curious World](https://www.curiousworld.com/blog/importance-playing-memory-games).
+* Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
+* For the game instructions I used the wording from a solo matching game on [Memozor](https://www.memozor.com/memory-games/big-or-giant/forest).
 
 ### Design
 
+* Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
+
 ### Media
 
-The pictures on the website originate from Unsplash, 
-[Background image](https://unsplash.com/photos/qluz8quWa5Q)
+ * The pictures on the website originate from Unsplash and  Shuttershock.
+
+    * [Background image](https://unsplash.com/photos/qluz8quWa5Q)
+
+    * [Image one by New vision](https://www.shutterstock.com/image-photo/metal-knight-swords-background-close-concept-572778259)
+
+    * [Image two by Dream Expander](https://www.shutterstock.com/image-illustration/high-resolution-ice-dragon-3d-rendered-1478439548)
+
+    * [Image three by Corona Borealis Studio](https://www.shutterstock.com/image-illustration/medieval-iron-throne-kings-made-weapons-1403501564)
+
+    * [Image four by Smolina Marianna](https://www.shutterstock.com/image-photo/dark-hedges-armoy-northern-ireland-evening-305240981)
+
+    * [Image five by SPF](https://www.shutterstock.com/image-illustration/blazing-flying-arrows-on-black-background-569326987)
+
+    * [Image six by SPF](https://www.shutterstock.com/image-illustration/metal-sword-on-dark-background-snow-743441950)
+
+    * [Image seven by tomertu](https://www.shutterstock.com/image-photo/mysteriousand-magical-image-womans-hand-holding-1149592505)
+
+    * [Image eight by Elivagar ](https://www.shutterstock.com/image-vector/great-houses-minimalistic-icons-song-ice-692104405)
+
+* All Shuttershock images have been downloaded as part of my standard license which authorise their limited usage in print, advertising, and packaging, and unlimited web distribution.
 
 ### Acknowledgements
 
-<!--I would like to thank my Mentor for his helpful feedback, and also the Slack community who had dealt with the same issues that I encountered during the development of this project. It was tremendously useful to have access to their previous challenges and their solutions. -->
+<!--I would like to thank you to my Mentor for his helpful feedback, and also to the Slack community who had dealt with the same issues that I encountered during the development of this project. It was tremendously useful to have access to their previous challenges and their solutions. -->
