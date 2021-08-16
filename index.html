@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game of Thrones Memory Game">
+    <meta name="keywords" content="memory game, matching game, Game of Thrones">
+    <meta name="author" content="Bernadett Koi">
+<!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Game of Thrones | Memory Game</title>
+</head>
+<body>
+
+<!-- Hero image with rules and start buttons-->
+    <div>
+        <button>rules with modal</button>
+        <button>start</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rulesModal">
+    Rules
+  </button>
+  
+  <!-- Modal -->
+            <div class="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="rulesModalLabel">Rules</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The purpose of this memory game is to memorize the locations of the cards in the game and to 
+                            make pairs of cards by turning them over 2 by 2 in the least amount of moves and in the shortest time.</p>
+                        <p>When the 2 cards match, it's a pair! You win the pair and have the right to play again, otherwise
+                            the cards are automatically turned faced down and you have to make a new try.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+
+<!-- Game page with timer and flip counter-->
+    <section class="game-page">
+        <div>timer</div>
+        <div>counter</div>
+            <div class="game-container">
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-one.jpg" alt="Swords">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-two.jpg" alt="Dragon">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-three.jpg" alt="Iron throne">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-four.jpg" alt="Tunnel of beech trees">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-five.jpg" alt="Spears">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-six.jpg" alt="Sword">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-seven.jpg" alt="Crown">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-eight.jpg" alt="Game of Thrones Great Houses minimalist icons">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-one.jpg" alt="Swords">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-two.jpg" alt="Dragon">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-three.jpg" alt="Iron throne">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-four.jpg" alt="Tunnel of beech trees">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-five.jpg" alt="Spears">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-six.jpg" alt="Sword">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-seven.jpg" alt="Crown">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+                <div class="game-card" data-object="">
+                    <img class="front-face" src="./assets/images/image-eight.jpg" alt="Game of Thrones Great Houses minimalist icons">
+                    <img class="back-face" src="./assets/images/backface.jpg" alt="White wolf drawn on blue blackgound">
+                </div>
+            </div>  
+    </section>
+
+<!-- Result page with play again and exit buttons-->
+<!-- Footer with social media icons--> 
+    <footer>
+        <div>social media icons - LIn & GitHub</div>
+        <div>disclaimer
+            <h6>This project is for educational purposes only and has been created for the Interactive Front-end Development module of Code Institute</h6>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+<!-- Bootstrap links re JavaScript-->    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
