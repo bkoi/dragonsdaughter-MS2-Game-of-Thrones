@@ -29,16 +29,22 @@ This project is for educational purposes only and has been created for the Inter
     * #### Color Scheme
         The gloomy and cold colors of the Night's Watch have inspired me to use the below color palette which I made via [Coolors](https://coolors.co/).
         &nbsp;
+
         ![Color palette](./assets/tests/color-palette.png)
         &nbsp;
-        According [Color Psychology](https://coschedule.com/blog/color-psychology-marketing#blue) blue is associated with trust, dependability which are in line with a lot of the themes detectable in Game of Thrones. Whereas [white](https://coschedule.com/blog/color-psychology-marketing#white) or whiter shades of blue usually create a sense of purity, peace and cleanliness. Whereas [black](https://coschedule.com/blog/color-psychology-marketing#black) conveys seriousness, control, independence but it can carry mystery or death, which are also recurring elements in the series.
+
+        According [Color Psychology](https://coschedule.com/blog/color-psychology-marketing#blue) blue is associated with trust, dependability which are in line with a lot of the themes detectable in Game of Thrones. Whereas [white](https://coschedule.com/blog/color-psychology-marketing#white) or whiter shades of blue usually create a sense of purity, peace and cleanliness. on the other hand, [black](https://coschedule.com/blog/color-psychology-marketing#black) conveys seriousness, control, independence but it can carry the meaning of mystery or death, which are also recurring elements in the series.
         &nbsp;
+    
         The color contrast checker gave very good ratings for using #091B2A as a background color while using #D7EDF3 as the text color.
         &nbsp;
+
         ![Contrast checker one](./assets/tests/contrast-checker-one.png) I intended to use this combination for the main page, pop-ups and instructions. 
         &nbsp;
+        
         I also liked the effect of using #BACFEO on buttons and juxaposing it with #081D3A when used as text color or on the footer.
         &nbsp;
+
         ![Contrast checker two](./assets/tests/contrast-checker-two.png)
 
     * ### Typography
@@ -132,7 +138,7 @@ I took some code snippets from
 ### Content
 
 * Reference in Project Goal: [Curious World](https://www.curiousworld.com/blog/importance-playing-memory-games).
-* Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
+
 * For the game instructions I used the wording from a solo matching game on [Memozor](https://www.memozor.com/memory-games/big-or-giant/forest).
 
 ### Design
