@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400&display=swap');
+
+body {
+    font-family: 'Cinzel Decorative', Montserrat, cursive, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*  min-height: 100vh;*/
