@@ -38,11 +38,12 @@ body {
 
 /* Game section */
 .game-container {
-    width: 60rem;
+    width: 65rem;
     height: 45rem;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 62.5rem;
 }
 
 .game-card {
@@ -50,13 +51,23 @@ body {
     height: calc(25% - 0.625rem);
     margin: 0.3125rem;
     position: relative;
-    transform-style: preserve-3d;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.3);
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .3s;
 }
 
 .game-card:active {
     transform: scale(0.95);
     transition: transform .3s;
+}
+
+.game-card.flip {
+    transform: rotateY(180deg);
+}
+
+.front-face {
+    transform: rotateY(180deg);
 }
 
 .front-face,
@@ -67,8 +78,8 @@ body {
     position: absolute;
     border-radius: 0.3125rem;
     background: #091B2A !important;
+    backface-visibility: hidden;
 }
-
 
 /*Footer */
 footer {
