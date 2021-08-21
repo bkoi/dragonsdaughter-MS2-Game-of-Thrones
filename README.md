@@ -1,4 +1,4 @@
-<div align="center"><h1>Game of Thrones Memory Game</h1></div>
+yth<div align="center"><h1>Game of Thrones Memory Game</h1></div>
 
 <!-- Space for mockup -->
 
@@ -42,7 +42,7 @@ This project is for educational purposes only and has been created for the Inter
         ![Contrast checker one](./assets/tests/contrast-checker-one.png) I intended to use this combination for the main page, pop-ups and instructions. 
         &nbsp;
         
-        I also liked the effect of using #BACFEO on buttons and juxaposing it with #081D3A when used as text color or on the footer.
+        I also liked the effect of using #BACFEO and #375168 on buttons, juxtaposing it with #081D3A when used as text color or on the footer.
         &nbsp;
 
         ![Contrast checker two](./assets/tests/contrast-checker-two.png)
@@ -89,6 +89,8 @@ This project is for educational purposes only and has been created for the Inter
     The GitPod environment was used to develop the code before committing and pushing it to GitHub.
 1. [GitHub:](https://github.com/)
     GitHub was utilised to store the project's code.
+1. [Font Awesome:](https://fontawesome.com/)
+    Social media icons were sourced from Font Awesome.
 
 ---
 ## Testing
@@ -133,7 +135,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Code
 
-I took some code snippets from 
+* I made use of some of code created by [Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/).
 
 ### Content
 
@@ -144,6 +146,7 @@ I took some code snippets from
 ### Design
 
 * Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
+* [Marina Ferreira's](https://marina-ferreira.github.io/tutorials/js/memory-game/) Memory Game also helped me design my card matching game.
 
 ### Media
 
