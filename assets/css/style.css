@@ -25,6 +25,13 @@ body {
     font-size: 4rem;
 }
 
+.bt-dark {
+    border-radius: 1rem;
+}
+.btn:hover {
+    background: #375168;
+}
+
 footer {
     color: #BACFE0;
     font-family: Montserrat, cursive;
