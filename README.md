@@ -2,9 +2,9 @@ yth<div align="center"><h1>Game of Thrones Memory Game</h1></div>
 
 <!-- Space for mockup -->
 
-<!-- [View the live site here]() -->
+[View the live site here](https://bkoi.github.io/dragonsdaughter-MS2-Game-of-Thrones/game.html)
 
-<!-- [View the repository in GitHub here]() -->
+[View the repository in GitHub here](https://github.com/bkoi/dragonsdaughter-MS2-Game-of-Thrones.git)
 
 ## Project Goal
 
