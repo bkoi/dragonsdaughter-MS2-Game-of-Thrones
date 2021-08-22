@@ -157,7 +157,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Code
 
-* I made use of some of code created by [Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/).
+* I made use of some of code created by [Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/) and from [Scotch - How to Build a Memory Matching Game in JavaScript](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript).
 
 ### Content
 
