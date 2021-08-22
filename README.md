@@ -117,9 +117,9 @@ This project is for educational purposes only and has been created for the Inter
 ## Testing
 
 ### Validator Testing
-1. [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
-1. [W3C CS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
-1. [JSHint](https://jshint.com/) - [Results]()
+1. [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result 1](./assets/tests/html-validator.png) [Result 2](./assets/tests/game-html-validator.png)
+1. [W3C CS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](./assets/tests/css-validator.png)
+1. [JSHint](https://jshint.com/) - [Results](./assets/tests/jslint.png)
 <!-- 1. The [WAVE Chrome Extension Tool](https://wave.webaim.org/extension/) was utilised to ensure better accessibility of each page of the website and made me add legend and label details to the Order and Contact page.-->
 
 ### Testing User stories from User Experience Section
