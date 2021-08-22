@@ -20,9 +20,36 @@
     <div class="hero-container">
         <h1 class="text-center">Game of Thrones Memory Game</h1>
             <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="button" class="btn btn-dark btn-lg justify-content-center mt-5 py-1">Rules</button>
-                <a href="game.html" id="start" class="btn btn-dark btn-lg justify-content-center mt-5 py-1" tabindex="-1" role="button" aria-disabled="true">Start</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark btn-lg justify-content-center" data-bs-toggle="modal" data-bs-target="#rulesModal">
+                    Rules
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="rulesModalLabel">Rules</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <p>Your challenge is to memorise the locations of the cards in the game and to make pairs of cards by turning them over 2 by 2
+                                in the least amount of moves and in the shortest time.</p>
+                            <p>When the 2 cards match, it's a pair! You win the pair and have the right to play again, otherwise the cards are automatically turned face down and you have to make a new try. </p>
+                            <p>Every time you start a new game, a random selection and a random positioning of the cards ensure you a different game than the previous one, so you can play as many times as you want!
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-dark btn-lg justify-content-center" data-bs-dismiss="modal">Close</button>
+                                <a href="game.html" id="start" class="btn btn-dark btn-lg justify-content-center mt-5 py-1" tabindex="-1" role="button" aria-disabled="true">Start</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+                <a href="game.html" id="start" class="btn btn-dark btn-lg justify-content-center mt-5 py-1" tabindex="-1" role="button" aria-disabled="true">Start</a>
+            
     </div>
     
 <!-- Footer with social media icons--> 
