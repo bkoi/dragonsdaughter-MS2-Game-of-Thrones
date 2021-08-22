@@ -35,6 +35,16 @@ section {
     font-size: 4rem;
 }
 
+/* Rules modal */
+
+.modal-body,
+.modal-title {
+    color: #091B2A !important;
+    font-family: Montserrat, cursive !important;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 /* Buttons on landing page */
 .bt-dark {
     border-radius: 1rem;
