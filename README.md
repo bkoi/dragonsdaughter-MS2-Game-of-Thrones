@@ -84,9 +84,9 @@ This project is for educational purposes only and has been created for the Inter
 
 ### Features Left to Implement
 
-*   Upon clicking the Rules button will provide a pop-up modal which explains the rules of this card matching solo player game.
-    A Congratulations modal to confirm the star rating of the player, along with the number of moves completed within their time interval. 
+*   A Congratulations modal to confirm the star rating of the player, along with the number of moves completed within their time interval. 
     A Restart and an Exit button on the game page.
+    Functions to shuffle and match cards, and provide feedback on time used and moves made during a round.
 ---
 ## Technologies Used
 
@@ -115,6 +115,7 @@ This project is for educational purposes only and has been created for the Inter
 
 ---
 ## Testing
+    As I didn't have time to finish the script.js, I could only test the flipping function which seems to work well.
 
 ### Validator Testing
 1. [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result 1](./assets/tests/html-validator.png) [Result 2](./assets/tests/game-html-validator.png)
@@ -125,7 +126,7 @@ This project is for educational purposes only and has been created for the Inter
 ### Testing User stories from User Experience Section
 * #### User Goals
 
-The webpage was extensively tested on various devices and browsers. Any bugs related to these are noted in the **Bugs** section.
+ I didn't have time to finish the script.js so I didn't test the user goals.
 
 ### Bugs
 
@@ -201,3 +202,5 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 <!--I would like to thank you to my Mentor for his helpful feedback, and also to the Slack community who had dealt with the same issues that I encountered during the development of this project. It was tremendously useful to have access to their previous challenges and their solutions. -->
 
+### Reflections
+* I have had a tough time to understand JavaScript which had a negative impact on the progress and completion of my assignment, which I am very sorry about. I am going to complete some additional tutorials and courses to have a better knowledge of this programming language and aim to resubmit the finished version of this card matching game in due course.
