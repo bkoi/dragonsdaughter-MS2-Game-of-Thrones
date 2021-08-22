@@ -51,7 +51,21 @@ This project is for educational purposes only and has been created for the Inter
         According to [Shmoop](https://www.shmoop.com/study-guides/literature/game-of-thrones-book/themes), there is a mixture of classic and contemporary themes characterising Game of Thrones, such as power, gender, betrayal, family, society and class, principles, coming of age, justice and judgement, memory and the past, strength and skill. I wanted my fonts to reflect this dichotomy so I decided to go with [Cinzel](https://fonts.google.com/specimen/Cinzel?preview.text=Winter%20is%20coming&preview.text_type=custom#glyphs) which resembles roman inscriptions, but also has a contemporary feel to it. I used [Montserrat](https://fonts.google.com/specimen/Montserrat#glyphs) for instructions and as the fallback font.
        
     * ### Structure
-        
+        The landing page references one filming location of the series. It has a simple structure with a Rules button and a Start link. (The Rules button provides a pop-up modal which explains the rules of this card matching solo player game.) When the user clicks on the Start button it takes them to the actual game page where they can start matching 8 pairs of cards. The timer and the moves counter keep the player updated about their progress. Once all the cards are flipped and successfully matched, the game is over and the player can view their time and the number of moves they have made during each round of the game (when the Congratulations modal pops up). (The player has the option to Restart the game or Exit.)
+        &nbsp;
+        The list of functions supporting the above structure include:
+        1. a function which shuffles the cards on load and restart,
+        1. a function which knows how to handle matched and unmatched cards,
+        1. a function which displays the current number of moves,
+        1. a function which counts the amount of time used to match all the cards, it should start once a round starts and the timer should stop once the player wins/ends the round,
+        1. a function which shows a star rating, between 1 and 3, reflecting the player's performance.
+        &nbsp;
+        Buttons and modals related to the landing page and the game page:
+        1. a Rules button which pops up with an explanation regarding the rules of the game,
+        1. a Start button which takes the player to the game page,
+        1. a Restart button to reset the game board, the timer, the moves counter and the star rating,
+        1. an Exit button to leave the page, if required,
+        1. a Congratulations pop-up that appears upon winning a round, displaying the time used, moves made and star rating achieved.
 * ### Wireframes
 
     I used [Balsamiq](https://balsamiq.com/wireframes/desktop/docs/) when creating the wireframes for my website. 
@@ -66,6 +80,8 @@ This project is for educational purposes only and has been created for the Inter
 ### Existing Features
 
 ### Features Left to Implement
+    Upon clicking the Rules button will provide a pop-up modal which explains the rules of this card matching solo player game.
+    A Congratulations modal to confirm the star rating of the player, along with the number of moves completed within their time interval. A Restart and an Exit button on the game page.
 ---
 ## Technologies Used
 
@@ -140,13 +156,15 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### Content
 
 * Reference in Project Goal: [Curious World](https://www.curiousworld.com/blog/importance-playing-memory-games).
-
+* Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
 * For the game instructions I used the wording from a solo matching game on [Memozor](https://www.memozor.com/memory-games/big-or-giant/forest).
 
 ### Design
 
 * Inspirations for the memory game from two other students of Code Institute: [Daniella Minyo](https://daniellaminyo.github.io/Milestone-2/index.html) and [Christopher Goodfellow](https://tawnygoody.github.io/MS2-World-of-Rugby/).
 * [Marina Ferreira's](https://marina-ferreira.github.io/tutorials/js/memory-game/) Memory Game also helped me design my card matching game.
+* [Sandra Israel](https://sandraisrael.github.io/Memory-Game-fend/#)
+* [Scotch - How to Build a Memory Matching Game in JavaScript](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 
 ### Media
 
