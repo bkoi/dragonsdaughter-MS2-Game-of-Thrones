@@ -39,7 +39,9 @@ This project is for educational purposes only and has been created for the Inter
         The color contrast checker gave very good ratings for using #091B2A as a background color while using #D7EDF3 as the text color.
         &nbsp;
 
-        ![Contrast checker one](./assets/tests/contrast-checker-one.png) I intended to use this combination for the main page, pop-ups and instructions. 
+        ![Contrast checker one](./assets/tests/contrast-checker-one.png) 
+        
+        I intended to use this combination for the main page, pop-ups and instructions. 
         &nbsp;
         
         I also liked the effect of using #BACFEO and #375168 on buttons, juxtaposing it with #081D3A when used as text color or on the footer.
@@ -66,6 +68,7 @@ This project is for educational purposes only and has been created for the Inter
         1. a Restart button to reset the game board, the timer, the moves counter and the star rating,
         1. an Exit button to leave the page, if required,
         1. a Congratulations pop-up that appears upon winning a round, displaying the time used, moves made and star rating achieved.
+
 * ### Wireframes
 
     I used [Balsamiq](https://balsamiq.com/wireframes/desktop/docs/) when creating the wireframes for my website. 
@@ -80,8 +83,10 @@ This project is for educational purposes only and has been created for the Inter
 ### Existing Features
 
 ### Features Left to Implement
-    Upon clicking the Rules button will provide a pop-up modal which explains the rules of this card matching solo player game.
-    A Congratulations modal to confirm the star rating of the player, along with the number of moves completed within their time interval. A Restart and an Exit button on the game page.
+
+*   Upon clicking the Rules button will provide a pop-up modal which explains the rules of this card matching solo player game.
+    A Congratulations modal to confirm the star rating of the player, along with the number of moves completed within their time interval. 
+    A Restart and an Exit button on the game page.
 ---
 ## Technologies Used
 

@@ -1,7 +1,17 @@
-const cards = document.querySelectorAll('.game-card');
+let card = document.getElementsByClassName('.game-card');
+let cards = [... card];
 
-function startGame() {
+for(let i = 0; i < cards.length; i++) {
+    cards[i].addEventListener('click', cardFlip);
+};
+
+function cardFlip() {
     this.classList.toggle('flip');
 }
 
-cards.forEach((card) => card.addEventListener('click', startGame));
+function shuffle(cards) {
+    cards.forEach(card => {
+        let randomIndex = Math.floor(Math.random() * 16);
+        card.style.order = randomIndex;
+    });
+}
